@@ -1,0 +1,42 @@
+<body>
+    <header>
+      <div class="menu-icon">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><button id="home-button" class="active">Home</button></li>
+          <li><button id="email-button">Email</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="todo-container">
+        <h1>My Todo List</h1>
+        <div class="form">
+          <input type="text" id="item-input" placeholder="Add item...">
+          <button id="add-button">Add</button>
+        </div>
+        <ul id="items"></ul>
+      </div>
+      <div class="email-container" style="display: none;">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+          <label for="name-input">Name:</label>
+          <input type="text" id="name-input" required>
+          <label for="email-input">Email:</label>
+          <input type="email" id="email-input" required>
+          <label for="message-input">Message:</label>
+          <textarea id="message-input" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Made by SanTheDev#0430</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+  
